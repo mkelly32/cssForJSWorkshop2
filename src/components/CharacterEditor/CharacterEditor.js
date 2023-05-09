@@ -29,6 +29,8 @@ function App() {
   );
 
   return (
+    <><div className={styles.viewportAliasContainer}><div className={styles.backgroundBar}>
+    </div></div>
     <main className={styles.characterEditor}>
       <MaxWidthWrapper className={styles.maxWidthWrapper}>
         <header className={styles.header}>
@@ -88,7 +90,7 @@ function App() {
           clothesColor={clothesColor}
         />
       </div>
-    </main>
+    </main></>
   );
 }
 
